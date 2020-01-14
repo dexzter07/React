@@ -7,6 +7,7 @@ import Message from "./component/message"
 import Count from "./component/count"
 import Difference from "./component//difference."
 import ParentComponent from "./component/parentComponent"
+import NameList from "./component/nameList"
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
       {/* <Message/> */}
       {/* <Count/>
       <Difference/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <NameList/>
     </div>
   );
 }
