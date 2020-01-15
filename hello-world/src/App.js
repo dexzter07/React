@@ -11,10 +11,11 @@ import NameList from "./component/nameList"
 import ReactFragment from './component/ReactFragment';
 import Hero from './component/hero';
 import ErrorBoundary from './component/ErrorBoundary';
+import ClickedCounter from'./component/clickCounter'
+import HoverCount from './component/HoverCount';
 function App() {
   return (
     <div className="App">
-      
       {/* <Greet name = "'Iron Man'" rname = "'RDJ'">
         <q>I love you 3000</q>
       </Greet>
@@ -28,7 +29,7 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <NameList/> */}
       {/* <ReactFragment /> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
       <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -40,8 +41,9 @@ function App() {
       <ErrorBoundary>      
       <Hero heroName="joker" />  
       </ErrorBoundary>
-          
-
+           */}
+      <ClickedCounter />
+      <HoverCount  name="Dexzter"/>
 
 
     </div>
