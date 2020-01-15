@@ -9,6 +9,8 @@ import Difference from "./component//difference."
 import ParentComponent from "./component/parentComponent"
 import NameList from "./component/nameList"
 import ReactFragment from './component/ReactFragment';
+import Hero from './component/hero';
+import ErrorBoundary from './component/ErrorBoundary';
 function App() {
   return (
     <div className="App">
@@ -25,7 +27,23 @@ function App() {
       <Difference/> */}
       {/* <ParentComponent/> */}
       {/* <NameList/> */}
-      <ReactFragment />
+      {/* <ReactFragment /> */}
+      <ErrorBoundary>
+      <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName="Flash" />
+      </ErrorBoundary>
+      <ErrorBoundary>      
+      <Hero heroName="joker" />  
+      </ErrorBoundary>
+          
+
+
+
     </div>
   );
 }
