@@ -8,6 +8,7 @@ import Count from "./component/count"
 import Difference from "./component//difference."
 import ParentComponent from "./component/parentComponent"
 import NameList from "./component/nameList"
+import ReactFragment from './component/ReactFragment';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
       {/* <Count/>
       <Difference/> */}
       {/* <ParentComponent/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      <ReactFragment />
     </div>
   );
 }
